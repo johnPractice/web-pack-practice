@@ -1,17 +1,25 @@
 {
-    "name": "web_pack",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "webpack-dev-server --config ./webpack.config.js --mode development"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "webpack": "^4.44.1",
-        "webpack-cli": "^3.3.12",
-        "webpack-dev-server": "^3.11.0"
-    }
+  "name": "web_pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnPractice/web-pack-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnPractice/web-pack-practice/issues"
+  },
+  "homepage": "https://github.com/johnPractice/web-pack-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0"
+  }
 }
